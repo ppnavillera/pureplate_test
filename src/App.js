@@ -8,7 +8,7 @@ import FeedbackPage from "./FeedbackPage";
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/pureplate_test">
         <Routes>
           <Route path="/" element={<Pureplate />}>
             <Route path=":id" element={<Restaurant id="0" none="none" />} />
