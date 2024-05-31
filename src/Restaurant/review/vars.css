@@ -1,0 +1,25 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --profile-stroke: rgba(0, 0, 0, 0.2);
+  --mouse-hover: rgba(225, 255, 237, 0.62);
+  --foundation-green-light: #e6f6f4;
+  --foundation-green-light-hover: #d9f2ef;
+  --foundation-green-light-active: #b0e4dd;
+  --foundation-green-normal: #00a991;
+  --foundation-green-normal-hover: #009883;
+  --foundation-green-normal-active: #008774;
+  --foundation-green-dark: #007f6d;
+  --foundation-green-dark-hover: #006557;
+  --foundation-green-dark-active: #004c41;
+  --foundation-green-darker: #003b33;
+
+  /* Fonts */
+  ---font-family: NotoSansKr-Medium, sans-serif;
+  ---font-size: 12.234963417053223px;
+  ---line-height: 136%;
+  ---font-weight: 500;
+  ---font-style: normal;
+
+  /* Effects */
+}

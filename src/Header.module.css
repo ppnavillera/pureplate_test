@@ -1,0 +1,58 @@
+.SearchContainer {
+  width: 400px;
+  height: 45px;
+  position: relative;
+  border: 0;
+}
+
+/* .SearchContainer img {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+} */
+
+.Search {
+  border: 0;
+  padding-left: 10px;
+  background-color: #eaeaea;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+.AutoSearchContainer {
+  z-index: 3;
+  height: 50vh; /* 높이는 필요에 따라 조정 */
+  background-color: #fff;
+  position: absolute;
+  top: 3.5rem; /* searchForm의 높이에 맞춰 조정 */
+  border: 2px solid;
+  padding: 15px;
+  left: 0;
+  right: 0;
+  box-sizing: border-box; /* 패딩을 포함한 너비 계산 */
+  width: 100%;
+}
+
+.AutoSearchData {
+  padding: 10px 8px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 4;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.AutoSearchData:hover {
+  background-color: #edf5f5;
+  cursor: pointer;
+}
+
+.AutoSearchData img {
+  position: absolute;
+  right: 5px;
+  width: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+}

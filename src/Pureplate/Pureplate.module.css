@@ -1,0 +1,421 @@
+.homeLogedIn {
+  background: #ffffff;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.mapContainer {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.modalWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.rectangle8 {
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #c73697;
+  border-width: 0.0625rem;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+}
+.vector {
+  flex-shrink: 0;
+  width: 47.09%;
+  height: 50.46%;
+  position: absolute;
+  right: 28.92%;
+  left: 23.98%;
+  bottom: 26.08%;
+  top: 23.46%;
+  overflow: visible;
+}
+.mapPin {
+  flex-shrink: 0;
+  width: 38.673125rem;
+  height: 20.769375rem;
+  position: static;
+}
+.mapPinInstance {
+  /* border-style: solid !important;
+  border-color: #5e81f4 !important;
+  border-width: 0.0625rem !important;  */
+  width: 6.471875rem !important;
+  height: 2.371875rem !important;
+  position: absolute !important;
+  left: 33.24625rem !important;
+  top: 34.71125rem !important;
+}
+.mapPinInstance2 {
+  border-style: solid !important;
+  border-color: #5e81f4 !important;
+  border-width: 0.0625rem !important;
+  width: 6.471875rem !important;
+  height: 2.371875rem !important;
+  position: absolute !important;
+  left: 37.9425rem !important;
+  top: 25.736875rem !important;
+}
+.mapPinInstance3 {
+  border-style: solid !important;
+  border-color: #5e81f4 !important;
+  border-width: 0.0625rem !important;
+  width: 6.471875rem !important;
+  height: 2.371875rem !important;
+  position: absolute !important;
+  left: 55.245625rem !important;
+  top: 16.314375rem !important;
+}
+.mapPinInstance4 {
+  border-style: solid !important;
+  border-color: #5e81f4 !important;
+  border-width: 0.0625rem !important;
+  width: 6.471875rem !important;
+  height: 2.371875rem !important;
+  position: absolute !important;
+  left: 64.45875rem !important;
+  top: 19.84rem !important;
+}
+.mapPinInstance5 {
+  border-style: solid !important;
+  border-color: #5e81f4 !important;
+  border-width: 0.0625rem !important;
+  width: 6.471875rem !important;
+  height: 2.371875rem !important;
+  position: absolute !important;
+  left: 58.221875rem !important;
+  top: 23.814375rem !important;
+}
+.mapPinInstance6 {
+  border-style: solid !important;
+  border-color: #5e81f4 !important;
+  border-width: 0.0625rem !important;
+  width: 6.471875rem !important;
+  height: 2.371875rem !important;
+  position: absolute !important;
+  left: 49.396875rem !important;
+  top: 32.34rem !important;
+}
+.mapPinInstance7 {
+  border-style: solid !important;
+  border-color: #5e81f4 !important;
+  border-width: 0.0625rem !important;
+  width: 6.471875rem !important;
+  height: 2.371875rem !important;
+  position: absolute !important;
+  left: 53.161875rem !important;
+  top: 22.8525rem !important;
+}
+.mapPinInstance8 {
+  border-style: solid !important;
+  border-color: #5e81f4 !important;
+  border-width: 0.0625rem !important;
+  width: 6.471875rem !important;
+  height: 2.371875rem !important;
+  position: absolute !important;
+  left: 64.45875rem !important;
+  top: 26.955rem !important;
+}
+.mapPinInstance9 {
+  border-style: solid !important;
+  border-color: #5e81f4 !important;
+  border-width: 0.0625rem !important;
+  width: 6.471875rem !important;
+  height: 2.371875rem !important;
+  position: absolute !important;
+  left: 58.221875rem !important;
+  top: 30.929375rem !important;
+}
+.mapPinInstance10 {
+  border-style: solid !important;
+  border-color: #5e81f4 !important;
+  border-width: 0.0625rem !important;
+  width: 6.471875rem !important;
+  height: 2.371875rem !important;
+  position: absolute !important;
+  left: 63.27875rem !important;
+  top: 34.070625rem !important;
+}
+.mapPinInstance11 {
+  border-style: solid !important;
+  border-color: #5e81f4 !important;
+  border-width: 0.0625rem !important;
+  width: 6.471875rem !important;
+  height: 2.371875rem !important;
+  position: absolute !important;
+  left: 32.2575rem !important;
+  top: 22.468125rem !important;
+}
+.mapPinInstance12 {
+  border-style: solid !important;
+  border-color: #5e81f4 !important;
+  border-width: 0.0625rem !important;
+  width: 6.471875rem !important;
+  height: 2.371875rem !important;
+  position: absolute !important;
+  left: 44.925rem !important;
+  top: 26.955rem !important;
+}
+.mapPinInstance13 {
+  border-style: solid !important;
+  border-color: #5e81f4 !important;
+  border-width: 0.0625rem !important;
+  width: 6.471875rem !important;
+  height: 2.371875rem !important;
+  position: absolute !important;
+  left: 38.688125rem !important;
+  top: 30.929375rem !important;
+}
+.propertyCard {
+  flex-shrink: 0;
+  width: 8.375rem;
+  height: 14.841875rem;
+  position: static;
+}
+.frame9 {
+  background: #ffffff;
+  border-radius: 0.625rem;
+  border-style: solid;
+  border-color: #5e81f4;
+  border-width: 0.1875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 33.1225rem;
+  top: 9.71125rem;
+  box-shadow: 0rem 0.125rem 1.25rem 0rem rgba(0, 0, 0, 0.07);
+}
+.imageHeader {
+  background: #d3d3d3;
+  border-radius: 0.625rem;
+  flex-shrink: 0;
+  width: 8.375rem;
+  height: 8.9375rem;
+  position: relative;
+  overflow: hidden;
+}
+.next {
+  width: 2.9375rem;
+  height: 2.9375rem;
+  position: absolute;
+  right: 0rem;
+  top: calc(50% - 1.40625rem);
+}
+.next2 {
+  height: auto;
+  position: absolute;
+  left: calc(50% - 1.15625rem);
+  top: calc(50% - 0.96875rem);
+  overflow: visible;
+}
+.image2 {
+  width: 16.375rem;
+  height: 9.3125rem;
+  position: absolute;
+  left: -1.125rem;
+  top: -0.1875rem;
+  object-fit: cover;
+}
+.frame7 {
+  padding: 0rem 0rem 0.625rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1875rem;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 8.375rem;
+  position: relative;
+}
+.frame4 {
+  display: flex;
+  flex-direction: row;
+  gap: 4.625rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.div {
+  color: #3e4958;
+  text-align: center;
+  font-family: "AnekBangla-ExtraBold", sans-serif;
+  font-size: 1rem;
+  line-height: 149.8%;
+  font-weight: 800;
+  position: relative;
+  width: 5.9375rem;
+}
+.frame5 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 5.4375rem;
+  position: relative;
+}
+.four5 {
+  color: #3e4958;
+  text-align: left;
+  font-family: var(--light-font);
+  /* font-family: "AnekBangla-Light", sans-serif; */
+  font-size: 0.75rem;
+  font-weight: 300;
+  position: relative;
+}
+.rectangle2 {
+  background: rgba(189, 189, 189, 0.5);
+  border-style: solid;
+  border-color: #e0e0e0;
+  border-width: 0.0625rem;
+  flex-shrink: 0;
+  /* width: 0.0625rem;
+  height: 1.1875rem; */
+  position: relative;
+}
+.four8Reviews {
+  color: #3e4958;
+  text-align: left;
+
+  font-family: var(--light-font);
+  /* font-family: "AnekBangla-Light", sans-serif; */
+  font-size: 0.75rem;
+  font-weight: 300;
+  position: relative;
+}
+.polygon3 {
+  border-radius: 0rem;
+  width: 5.80875rem;
+  height: 3.053125rem;
+  position: absolute;
+  left: 40.62125rem;
+  top: 24.553125rem;
+  transform: translate(-4.925625rem, -2.29rem);
+  overflow: visible;
+}
+.mapZoom {
+  border-style: solid;
+  border-color: #5e81f4;
+  border-width: 0.0625rem;
+  flex-shrink: 0;
+  width: 2.8125rem;
+  height: 4.6875rem;
+  position: absolute;
+  right: 2.5rem;
+  top: 6.6875rem;
+  box-shadow: var(
+    --box-shadow-box-shadow,
+    0rem 0.1875rem 0.125rem 0rem rgba(0, 0, 0, 0.1)
+  );
+}
+.rectangle {
+  background: #ffffff;
+  border-radius: 0.125rem;
+  border-style: solid;
+  border-color: #d3d3d3;
+  border-width: 0.0625rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.plusInstance {
+  width: 1.4625rem !important;
+  height: 1.4625rem !important;
+  position: absolute !important;
+  left: calc(50% - 0.70625rem) !important;
+  top: 0.39375rem !important;
+}
+.minusInstance {
+  width: 1.4625rem !important;
+  height: 1.4625rem !important;
+  position: absolute !important;
+  left: calc(50% - 0.70625rem) !important;
+  top: 2.8125rem !important;
+}
+.seperator {
+  background: #d3d3d3;
+  width: 100%;
+  height: 1.37%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 47.95%;
+  top: 50.68%;
+}
+.header {
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0.0625rem;
+  padding: 0.625rem 8.3125rem 0.625rem 8.3125rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90rem;
+  height: 6.75rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  box-shadow: 0rem 0.0625rem 1.875rem 0rem rgba(0, 0, 0, 0.06);
+}
+.purePlateIcon {
+  flex-shrink: 0;
+  width: 6.0625rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 0.875rem;
+  top: calc(50% - 2.75rem);
+  object-fit: cover;
+}
+.attributes {
+  padding: 0.625rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 29.9375rem;
+  height: 4.125rem;
+  /* position: absolute; */
+  left: 47.3125rem;
+  top: 1.375rem;
+  overflow: hidden;
+}
+.filterIcon {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  right: 0rem;
+  top: calc(50% - 0.75rem);
+  overflow: visible;
+}
+.attributeInstance {
+  flex-shrink: 0 !important;
+}

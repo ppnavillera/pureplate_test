@@ -1,0 +1,12 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --profile-stroke: rgba(0, 0, 0, 0.2);
+  --mouse-hover: rgba(225, 255, 237, 0.62);
+  --search-button: rgba(74, 124, 89, 0.96);
+
+  /* Fonts */
+
+  --light-font: "AnekBangla-Light", sans-serif;
+  /* Effects */
+}

@@ -1,0 +1,177 @@
+li {
+  font-family: "AnekBangla-ExtraBold", sans-serif;
+  font-size: 1rem;
+  line-height: 149.8%;
+  font-weight: 400;
+}
+a:visited {
+  color: black;
+}
+
+.profileContainer {
+  position: absolute; /* 이전에는 relative였지만 이제는 absolute를 사용합니다 */
+  top: calc(50% - 1.4375rem); /* profile 버튼의 원래 top 위치 */
+  right: 1.6875rem; /* profile 버튼의 원래 right 위치 */
+  /* 필요하다면 width와 height 설정 */
+}
+
+.profile {
+  /* position 관련 스타일을 제거합니다. */
+  border-radius: 1.0625rem;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 0.0625rem;
+  flex-shrink: 0;
+  width: 8.9375rem;
+  height: 2.9375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3e4958;
+  text-align: center;
+  font-family: "AnekBangla-ExtraBold", sans-serif;
+  font-size: 1rem;
+  line-height: 149.8%;
+  font-weight: 800;
+}
+
+.dropdownContainer {
+  position: relative;
+}
+.profileImage {
+  background: linear-gradient(to left, #d3d3d3, #d3d3d3);
+  border-radius: 5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 0.4375rem;
+  top: calc(50% - 1.21875rem);
+  object-fit: cover;
+}
+
+.jiwoo {
+  color: #3e4958;
+  text-align: center;
+  font-family: "AnekBangla-ExtraBold", sans-serif;
+  font-size: 1rem;
+  line-height: 149.8%;
+  font-weight: 800;
+  position: absolute;
+  /* left: calc(50% - 0.84375rem); */
+  /* top: calc(50% - 0.71875rem); */
+  width: 2.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chevronDownInstance2 {
+  width: 1rem !important;
+  height: 1rem !important;
+  position: absolute !important;
+  right: 0.625rem !important;
+  top: calc(50% - 0.46875rem) !important;
+}
+
+.dropdownMenu {
+  position: absolute; /* 드롭다운 메뉴의 위치를 조정하기 위해 상위 요소 대비 절대 위치 설정 */
+  top: 100%; /* 버튼 바로 아래에 위치하도록 설정 */
+  left: 0;
+  z-index: 1; /* 다른 요소들 위에 표시 */
+  width: 200px; /* 드롭다운 메뉴의 너비 */
+  background-color: #f9f9f9; /* 배경색 */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+  border-radius: 4px; /* 모서리 둥글게 */
+  padding: 12px 0; /* 상하 패딩 */
+
+  animation: dropdown 0.4s ease forwards;
+}
+
+.dropdownMenu ul {
+  list-style-type: none; /* 기본 목록 스타일 제거 */
+  margin: 0;
+  padding: 0;
+}
+
+.dropdownMenu ul li {
+  padding: 8px 16px; /* 항목 내부 패딩 */
+  cursor: pointer; /* 마우스 오버 시 커서 변경 */
+  /* text-align: left; 텍스트 왼쪽 정렬 */
+}
+
+.dropdownMenu ul li:hover {
+  background-color: #f2f2f2;
+  /* background-color: #f1f1f1; 항목에 마우스 오버 시 배경색 변경 */
+}
+@keyframes dropdown {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/*
+@keyframes dropdownClose {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+} */
+/* .dropdownMenu.hide {
+  animation: dropdownClose 0.4s ease forwards;
+} */
+
+/*  */
+/* 
+@keyframes slide-fade-in-dropdown-animation {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.slide-fade-in-dropdown {
+  overflow: hidden;
+}
+
+.slide-fade-in-dropdown > ul {
+  animation: slide-fade-in-dropdown-animation 0.4s ease;
+}
+
+@keyframes slide-fade-out-dropdown-animation {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.slide-fade-out-dropdown {
+  overflow: hidden;
+}
+
+.slide-fade-out-dropdown > ul {
+  animation: slide-fade-out-dropdown-animation 0.4s ease;
+  animation-fill-mode: forwards;
+}
+
+.components-dropdown > ul {
+  position: relative;
+  top: 5px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-left: 0;
+  list-style: none;
+} */

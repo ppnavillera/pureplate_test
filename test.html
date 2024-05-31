@@ -1,0 +1,282 @@
+<style>
+  .container {
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: center; */
+
+    justify-content: center;
+  }
+
+  @media (max-width: 991px) {
+    .container {
+      white-space: initial;
+    }
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    position: relative;
+    min-height: 1015px;
+    width: 100%;
+    padding-bottom: 80px;
+  }
+
+  @media (max-width: 991px) {
+    .content-wrapper {
+      max-width: 100%;
+      white-space: initial;
+    }
+  }
+
+  .background-image {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .header-wrapper {
+    position: relative;
+    align-items: center;
+    box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    margin-bottom: 646px;
+    gap: 19px;
+    justify-content: space-between;
+    padding: 10px 21px;
+  }
+
+  @media (max-width: 991px) {
+    .header-wrapper {
+      flex-wrap: wrap;
+      padding-right: 20px;
+      margin-bottom: 40px;
+      white-space: initial;
+    }
+  }
+
+  .logo-image {
+    aspect-ratio: 1.1;
+    object-fit: auto;
+    object-position: center;
+    width: 97px;
+    align-self: stretch;
+  }
+
+  .header-controls {
+    border-radius: 8px;
+    align-self: stretch;
+    display: flex;
+    gap: 0px;
+    margin: auto 0;
+  }
+
+  @media (max-width: 991px) {
+    .header-controls {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+    }
+  }
+
+  .tag {
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid rgba(211, 211, 211, 1);
+    background-color: rgba(255, 255, 255, 0.96);
+    display: flex;
+    gap: 0px;
+    font-size: 16px;
+    color: #3e4958;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 15px 11px;
+    font-family: Anek Bangla, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .tag {
+      white-space: initial;
+    }
+  }
+
+  .vegan-icon {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 16px;
+    margin: auto 0;
+  }
+
+  .search-bar {
+    align-items: flex-start;
+    border: 1px solid rgba(211, 211, 211, 1);
+    background-color: rgba(255, 255, 255, 0.96);
+    color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    flex: 1;
+    padding: 12px 16px;
+    font: 200 24px/149.8% Anek Bangla, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .search-bar {
+      max-width: 100%;
+      padding-right: 20px;
+      white-space: initial;
+    }
+  }
+
+  .search-icon {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 62px;
+  }
+
+  .filters {
+    align-self: stretch;
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    color: #3e4958;
+    font-weight: 300;
+    line-height: 150%;
+    justify-content: space-between;
+    margin: auto 0;
+    padding: 10px;
+  }
+
+  @media (max-width: 991px) {
+    .filters {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+    }
+  }
+
+  .filter-options {
+    display: flex;
+    gap: 10px;
+  }
+
+  @media (max-width: 991px) {
+    .filter-options {
+      white-space: initial;
+    }
+  }
+
+  .option {
+    font-family: Anek Bangla, sans-serif;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 10px 16px;
+  }
+
+  .vegan-option {
+    background-color: rgba(169, 234, 195, 0.62);
+  }
+
+  .vegetarian-option,
+  .halal-option,
+  .glutenfree-option {
+    border: 1px solid rgba(62, 73, 88, 1);
+    background-color: #fff;
+  }
+
+  .submit-icon {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 24px;
+    margin: auto 0;
+  }
+
+  .footer-image {
+    aspect-ratio: 3.03;
+    object-fit: auto;
+    object-position: center;
+    width: 143px;
+    border-radius: 17px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    align-self: stretch;
+    max-width: 100%;
+    margin: auto 0;
+  }
+</style>
+
+<div class="container">
+  <div class="content-wrapper">
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/b0e75acc1557a190852b2f50c0a8d9f3a83782354ffcb541098d068f2eb6d122?apiKey=6353f72ed0604a838aaecae1a4d9beb7&"
+      alt=""
+      class="background-image"
+    />
+    <header class="header-wrapper">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/b86a33c2270c4d2fa541bb2e4740944d44c853b13203b5b793d1f1b455f2ce73?apiKey=6353f72ed0604a838aaecae1a4d9beb7&"
+        alt=""
+        class="logo-image"
+      />
+      <div class="header-controls">
+        <div class="tag">
+          Vegan
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/f784968d388e58cc9d7163231d3f112e2ac6664f3e19dfde47854924cb91794a?apiKey=6353f72ed0604a838aaecae1a4d9beb7&"
+            alt="Vegan Icon"
+            class="vegan-icon"
+          />
+        </div>
+        <form class="search-bar" action="#">
+          <label for="searchInput" class="visually-hidden">Search</label>
+          <input
+            type="search"
+            id="searchInput"
+            name="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button type="submit">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/82b5b8d9196931c8dbc320823d7629bb6f49f2e02a851c8106f31ffea92d64a0?apiKey=6353f72ed0604a838aaecae1a4d9beb7&"
+              alt="Search Icon"
+              class="search-icon"
+            />
+          </button>
+        </form>
+      </div>
+    </header>
+    <section class="filters">
+      <div class="filter-options">
+        <div class="option vegan-option">Vegan</div>
+        <div class="option vegetarian-option">Vegetarian</div>
+        <div class="option halal-option">Halal</div>
+        <div class="option glutenfree-option">Gluten-free</div>
+      </div>
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/f86e3b352e035010197ad941e91bb6101566f710359e7eb4fcdf5eb889908aee?apiKey=6353f72ed0604a838aaecae1a4d9beb7&"
+        alt="Submit Icon"
+        class="submit-icon"
+      />
+    </section>
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/7f3fe5ec44706222adfde63c7a5984397e2b8451753ef91fef4899a54d9b3a41?apiKey=6353f72ed0604a838aaecae1a4d9beb7&"
+      alt="Footer Image"
+      class="footer-image"
+    />
+  </div>
+</div>

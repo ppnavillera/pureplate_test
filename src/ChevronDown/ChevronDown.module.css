@@ -1,0 +1,11 @@
+.chevronDown,
+.chevronDown * {
+  box-sizing: border-box;
+}
+.chevronDown {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  overflow: visible;
+}

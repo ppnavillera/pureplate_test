@@ -1,0 +1,208 @@
+.searchBar {
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 30rem;
+  min-width: 15rem;
+  /* width: 37.8125rem; */
+  height: 3.5rem;
+  position: relative;
+  padding-right: 40px;
+}
+.searchForm {
+  background: rgba(255, 255, 255, 0.96);
+  border-style: solid;
+  border-color: #d3d3d3;
+  border-width: 0.0625rem;
+  /* padding: 0.75rem 1rem 0.75rem 1rem; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  height: 100%;
+  position: relative;
+  /* overflow: hidden; */
+  /* search2 속성 복붙 */
+  color: rgba(0, 0, 0, 0.5);
+  /* text-align: center; */
+  font-family: "AnekBangla-ExtraLight", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 200;
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+.search {
+  color: rgba(0, 0, 0, 0.5);
+  /* text-align: center; */
+  font-family: "AnekBangla-ExtraLight", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+
+  line-height: 149.8%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  /* width: 6.125rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-left: 20px;
+}
+.button {
+  flex-shrink: 0;
+  width: 3.875rem;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: rgba(74, 124, 89, 0.96);
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+  cursor: pointer;
+}
+/* .rectangle2 {
+    background: rgba(74, 124, 89, 0.96);
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+    position: absolute;
+    right: 0rem;
+    left: 0rem;
+    bottom: 0rem;
+    top: 0rem;
+  } */
+.searchInstance {
+  width: 1.625rem !important;
+  height: 1.625rem !important;
+  position: absolute !important;
+  left: calc(50% - 0.8125rem) !important;
+  top: calc(50% - 0.75rem) !important;
+}
+
+/*  */
+
+.AutoSearchData:hover {
+  background-color: #edf5f5;
+  cursor: pointer;
+}
+
+.AutoSearchData img {
+  position: absolute;
+  right: 5px;
+  width: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/*  */
+
+.dropDownBox {
+  z-index: 3;
+  /* margin: 0 auto; */
+
+  /* padding: 8px 0; */
+  /* 
+  display: block;
+
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  
+   */
+
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+  /* padding: 1.25rem; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: flex-start;
+  /* height: 15.75rem; */
+  position: relative;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+
+  list-style-type: none;
+  /* autosearchcontainer */
+  width: 100%;
+  position: absolute;
+  top: 3.5rem; /* searchForm의 높이에 맞춰 조정 */
+}
+
+.dropDownItem {
+  padding: 10px 8px;
+  width: 100%;
+  /* font-size: 14px; */
+  /* font-weight: bold; */
+  z-index: 4;
+  letter-spacing: 2px;
+  /* position: relative; */
+
+  /*  */
+  display: flex;
+  flex-direction: row;
+  /* gap: 0.21125rem; */
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  /* 
+   */
+  /* color: rgba(53, 53, 53, 0.75);
+  text-align: left;
+  font-family: "NotoSansKr-Regular", sans-serif;
+  font-size: 1.1275362968444824rem;*/
+  font-weight: 400;
+  /*  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; */
+}
+
+.dropDownItem.selected {
+  background-color: #edf5f5;
+}
+
+.union {
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1.4rem;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+
+.recentSearch12 {
+  color: rgba(53, 53, 53, 0.75);
+  text-align: left;
+  font-family: "NotoSansKr-Regular", sans-serif;
+  font-size: 1.1275362968444824rem;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.searchHistory {
+  padding: 0rem 0.7rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.3525rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}

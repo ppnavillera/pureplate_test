@@ -1,0 +1,83 @@
+* {
+  appearance: true;
+}
+
+/* RestaurantForm.module.css */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.formField {
+  margin: 5px 0;
+}
+
+.formLabel {
+  margin-bottom: 5px;
+}
+/* 
+.input,
+.textarea,
+.checkboxContainer,
+.button {
+  padding: 8px;
+  margin-top: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkboxContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+} */
+/* RestaurantForm.module.css 수정 */
+
+/* 기본적인 input 스타일 */
+.input,
+.textarea {
+  padding: 8px;
+  margin-top: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: auto; /* appearance를 auto로 설정하여 기본 스타일을 복원 */
+}
+
+/* 체크박스 컨테이너 */
+.checkboxContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 체크박스 스타일 */
+.checkbox {
+  margin: 5px 0;
+  cursor: pointer;
+  appearance: auto; /* 체크박스의 기본 스타일 복원 */
+}
+
+/* 버튼 스타일 */
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  appearance: auto; /* 버튼의 기본 스타일 복원 */
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

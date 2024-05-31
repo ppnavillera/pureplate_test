@@ -1,0 +1,55 @@
+.mapPin,
+.mapPin * {
+  box-sizing: border-box;
+}
+.mapPin {
+  width: 3.4375rem;
+  height: 2.3125rem;
+  position: relative;
+}
+.default {
+  position: absolute;
+  inset: 0;
+}
+.shape {
+  width: 3.4375rem;
+  height: 2.25625rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  overflow: visible;
+}
+.one55K {
+  color: var(--black, #1a1a1a);
+  text-align: left;
+  font-family: "OpenSans-Bold", sans-serif;
+  font-size: 0.6875rem;
+  line-height: 163.42%;
+  font-weight: 700;
+  position: absolute;
+  left: 0.875rem;
+  top: 0.4375rem;
+}
+.active {
+  position: absolute;
+  inset: 0;
+}
+.shape2 {
+  width: 3.4375rem;
+  height: 2.25625rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  overflow: visible;
+}
+.one55K2 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "OpenSans-Bold", sans-serif;
+  font-size: 0.6875rem;
+  line-height: 163.42%;
+  font-weight: 700;
+  position: absolute;
+  left: 0.875rem;
+  top: 0.4375rem;
+}
