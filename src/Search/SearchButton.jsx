@@ -6,7 +6,7 @@ function SearchButton({ onSubmit }) {
     <button className={styles.button} onClick={onSubmit}>
       <img
         className={searchStyles.search + " " + styles.searchInstance}
-        src="/assets/search.svg"
+        src="./assets/search.svg"
         alt="Search"
       />
       {/* search.module.css랑 합치기 */}

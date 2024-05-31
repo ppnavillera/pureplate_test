@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pureplate_test/static/css/main.5f10305c.css",
-    "main.js": "/pureplate_test/static/js/main.fc16a0ba.js",
+    "main.js": "/pureplate_test/static/js/main.526fb9c8.js",
     "static/js/453.b9a8f572.chunk.js": "/pureplate_test/static/js/453.b9a8f572.chunk.js",
     "static/media/memil.svg": "/pureplate_test/static/media/memil.516f187c14225cfcc0a5a048a554ccec.svg",
     "static/media/bookmarkGray.svg": "/pureplate_test/static/media/bookmarkGray.f054ce04a22286cc60b9b0af2cc59f0c.svg",
@@ -12,11 +12,11 @@
     "static/media/div4.svg": "/pureplate_test/static/media/div4.5461576a26110dba1e8c9d44ddef7c60.svg",
     "static/media/Star1.svg": "/pureplate_test/static/media/Star1.aa246b68e5422d4fb553dc09822fa2ba.svg",
     "main.5f10305c.css.map": "/pureplate_test/static/css/main.5f10305c.css.map",
-    "main.fc16a0ba.js.map": "/pureplate_test/static/js/main.fc16a0ba.js.map",
+    "main.526fb9c8.js.map": "/pureplate_test/static/js/main.526fb9c8.js.map",
     "453.b9a8f572.chunk.js.map": "/pureplate_test/static/js/453.b9a8f572.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f10305c.css",
-    "static/js/main.fc16a0ba.js"
+    "static/js/main.526fb9c8.js"
   ]
 }
